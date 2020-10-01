@@ -34,7 +34,7 @@ You can do this in 2 ways:
   - Click on the clone button.
   - Download the ZIP and then extract it.
 
-<h3>
+<h3>Download ZIP and clone options:</h3>
 <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/downloadzip.PNG" alt="Code Button Image">
   
 2. OPTION 2
@@ -52,3 +52,26 @@ You can do this in 2 ways:
   ```
 <h3>Cloning though Windows PowerShell:</h3>
   <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/clonerepo.PNG" alt="fork button link">
+
+
+### Step 3
+Let's start working on the project now! 
+We need to change directory into cloned folder by typing the following command.
+```
+cd first-pull-request-repo
+```
+Now, BEFORE CHANGING ANYTHING, make sure you're working on a different branch and not in master. 
+To create a new branch, from the terminal inside your current project directory type the following command.
+```
+git branch YOUR_GITHUB_USERNAME-profile
+```
+Obviously you'll have to replace the YOUR_GITHUB_USERNAME with your GitHub username.<br>
+(You can give any name to your branch which describes the purpose of the branch. Since here we're adding your profile to the profiles directory, we'll simply give the name of the branch as above. 
+eg: git branch seshagopalselvakumar-profile. )<br>
+Once you have created the new branch we'll change the current branch from master to your newly created branch.<br>
+Execute the following command on your terminal.
+```
+git checkout YOUR_BRANCH_NAME
+```
+<h3>It should look like this. (With your chosen names ofcourse)</h3>
+<img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/branched.PNG" alt="Branching procedure">
