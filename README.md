@@ -26,14 +26,17 @@ Now, you have to clone the forked repository. This will create a local copy of t
 
 You can do this in 2 ways:
 
-<details>
-  <summary>Code Button and Clone Options Image</summary>
-  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/clone%20link.PNG" alt="Code Button Image">
-</details>
+
+  
+
 
 1. OPTION 1
   - Click on the clone button.
   - Download the ZIP and then extract it.
+
+<h3>
+<img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/downloadzip.PNG" alt="Code Button Image">
+  
 2. OPTION 2
   - Click on the clone button.
   - Copy the link under HTTPS section.
@@ -47,7 +50,5 @@ You can do this in 2 ways:
   ```
   git clone https://github.com/YOUR_USERNAME/first-pull-request-repo.git
   ```
-<details>
-  <summary>Cloning though git bash</summary>
-  <img src="" alt="fork button link">
-</details>
+<h3>Cloning though Windows PowerShell:</h3>
+  <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/clonerepo.PNG" alt="fork button link">
