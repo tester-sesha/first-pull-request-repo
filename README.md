@@ -34,7 +34,7 @@ You can do this in 2 ways:
   - Click on the clone button.
   - Download the ZIP and then extract it.
 
-<h3>Download ZIP and clone options:</h3>
+<h4>Download ZIP and clone options:</h4>
 <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/downloadzip.PNG" alt="Code Button Image">
   
 2. OPTION 2
@@ -50,7 +50,7 @@ You can do this in 2 ways:
   ```
   git clone https://github.com/YOUR_USERNAME/first-pull-request-repo.git
   ```
-<h3>Cloning though Windows PowerShell:</h3>
+<h4>Cloning though Windows PowerShell:</h4>
   <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/clonerepo.PNG" alt="fork button link">
 
 
@@ -74,5 +74,50 @@ Execute the following command on your terminal.
 ```
 git checkout YOUR_BRANCH_NAME
 ```
-<h3>It should look like this, with your username in place of mine:</h3>
-<img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/branched.PNG" alt="Branching procedure">
+<h4>It should look like this, with your username in place of mine:</h4>
+<img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/Branching.PNG" alt="Branching procedure">
+
+### Step 4
+- Move into the profiles directory in cloned project.
+```
+cd profiles
+```
+- Create a new file called YOUR_USERNAME.md using the following command.
+```
+touch YOUR_USERNAME.md
+```
+- Navigate into the project directory (through your file manager) and open this file in your favourite editor.
+- fill the details as shown below:
+```
+---
+username: YOUR_USER_NAME
+fullname: YOUR_FULL_NAME
+---
+```
+- Save and clone the file.<br>
+<details>
+  <summary>Your file should look something like this(With your names ofcourse</summary>
+  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/editing%20markdown.PNG" alt="markdown file image">
+</details>
+
+**NOTE**: This is just a way of simulating - you making changes into the project file. 
+
+### Step 5
+- Now we need to stage all the changes we made. 
+- Open the terminal again and inside the project directory and execute following commands.
+```
+git add .
+```
+- The above command staged all the changes, now we need to commit them with a suitable message. You can commit using the following command.
+```
+git commit -m "YOUR_COMMIT_MESSAGE"
+```
+Example:
+```
+git commit -m "Hey, I just added my profile in the profiles directory"
+```
+<details>
+  <summary>Commiting Image</summary>
+  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/committed.PNG" alt="Commiting Image">
+</details>
+
