@@ -67,11 +67,12 @@ git branch YOUR_GITHUB_USERNAME-profile
 ```
 Obviously you'll have to replace the YOUR_GITHUB_USERNAME with your GitHub username.<br>
 (You can give any name to your branch which describes the purpose of the branch. Since here we're adding your profile to the profiles directory, we'll simply give the name of the branch as above. 
+<br>
 eg: git branch seshagopalselvakumar-profile. )<br>
 Once you have created the new branch we'll change the current branch from master to your newly created branch.<br>
 Execute the following command on your terminal.
 ```
 git checkout YOUR_BRANCH_NAME
 ```
-<h3>It should look like this. (With your chosen names ofcourse)</h3>
+<h3>It should look like this, with your username in place of mine:</h3>
 <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/branched.PNG" alt="Branching procedure">
