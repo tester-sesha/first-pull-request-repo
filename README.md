@@ -18,5 +18,36 @@ You'll see the fork option on the top right hand side of the screen.
 - Click on the fork button.
 <details open>
   <summary>Fork Button Image</summary>
-    <img src="./Resouces/forkimage.PNG" alt="fork button Image">
+    <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/forkimage.PNG" alt="fork button Image">
+</details>
+
+### Step 2
+Now, you have to clone the forked repository. This will create a local copy of the project on your machine.
+
+You can do this in 2 ways:
+
+<details>
+  <summary>Code Button and Clone Options Image</summary>
+  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/clone%20link.PNG" alt="Code Button Image">
+</details>
+
+1. OPTION 1
+  - Click on the clone button.
+  - Download the ZIP and then extract it.
+2. OPTION 2
+  - Click on the clone button.
+  - Copy the link under HTTPS section.
+  - Open terminal/git bash/command prompt.
+  - Type -
+  ```
+  git clone
+  ```
+  - Now paste the link.
+  - The resulting command should look something like this:
+  ```
+  git clone https://github.com/YOUR_USERNAME/first-pull-request-repo.git
+  ```
+<details>
+  <summary>Cloning though git bash</summary>
+  <img src="" alt="fork button link">
 </details>
