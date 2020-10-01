@@ -97,10 +97,9 @@ fullname: YOUR_FULL_NAME
 ---
 ```
 - Save and clone the file.<br>
-<details>
-  <summary>Your file should look something like this(With your names ofcourse</summary>
-  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/editing%20markdown.PNG" alt="markdown file image">
-</details>
+
+<h4>Your file should look something like this(With your names ofcourse</h4>
+<img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/added%20username%20and%20full%20name.PNG" alt="markdown file image">
 
 **NOTE**: This is just a way of simulating - you making changes into the project file. 
 
@@ -119,6 +118,6 @@ Example:
 git commit -m "Hey, I just added my profile in the profiles directory"
 ```
 <h4>Commiting Image</h4>
-<img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/committed.PNG" alt="Commiting Image">
+<img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/commit%20message.PNG" alt="Commiting Image">
 
 
