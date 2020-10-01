@@ -98,7 +98,7 @@ fullname: YOUR_FULL_NAME
 ```
 - Save and clone the file.<br>
 
-<h4>Your file should look something like this(With your names ofcourse</h4>
+<h4>Your file should look something like this:</h4>
 <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/added%20username%20and%20full%20name.PNG" alt="markdown file image">
 
 **NOTE**: This is just a way of simulating - you making changes into the project file. 
@@ -117,7 +117,35 @@ Example:
 ```
 git commit -m "Hey, I just added my profile in the profiles directory"
 ```
-<h4>Commiting Image</h4>
+<h4>Commiting Image:</h4>
 <img src="https://github.com/seshagopalselvakumar/first-pull-request-repo/blob/master/Resources/commit%20message.PNG" alt="Commiting Image">
 
+### Step 6
+Let's push the changes to your repository on GitHub! 
+Execute the following command to push all the changes to the forked copy in your GitHub account.
+```
+git push -u origin YOUR_BRANCH_NAME
+```
+
+Example:
+```
+git push -u origin seshagopalselvakumar-profile
+```
+
+### Step 7
+Now open your github account to make a pull request.
+- Click on compare and pull request.
+
+<div align="center">
+  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/pr1.PNG" alt="pr button">
+</div>
+<br>
+
+- Write a meaningful description and click on Create Pull Request.
+
+<div align="center">
+  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/pr2.PNG">
+</div>
+
+<h2 align="center">Congratulations! You just created your first pull request🥳</h2>
 
