@@ -80,12 +80,14 @@ git checkout YOUR_BRANCH_NAME
 ### Step 4
 - Move into the profiles directory in cloned project.
 ```
-cd profiles
+cd Profiles
 ```
 - Create a new file called YOUR_USERNAME.md using the following command.
 ```
-touch YOUR_USERNAME.md
+New-Item YOUR_USERNAME.md
 ```
+<br>(This command is for Windows Powershell, so please use the respective command of the terminal you are using!)
+<br>
 - Navigate into the project directory (through your file manager) and open this file in your favourite editor.
 - fill the details as shown below:
 ```
@@ -116,8 +118,7 @@ Example:
 ```
 git commit -m "Hey, I just added my profile in the profiles directory"
 ```
-<details>
-  <summary>Commiting Image</summary>
-  <img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/committed.PNG" alt="Commiting Image">
-</details>
+<h4>Commiting Image</h4>
+<img src="https://github.com/nirbhayvashisht/first-pr-repo/blob/master/Resources/committed.PNG" alt="Commiting Image">
+
 
